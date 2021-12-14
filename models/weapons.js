@@ -21,6 +21,7 @@ const damageProfileSchema = new mongoose.Schema({
 
 const weaponSchema = new mongoose.Schema({
   name: { type: String, required: false, unique: false },
+  weaponType: { type: String, required: false, unique: false },
   image: { type: String, required: false, unique: false },
   adsTime: { type: Number, required: false, unique: false  },
   sprintToFire: { type: Number, required: false, unique: false  },
