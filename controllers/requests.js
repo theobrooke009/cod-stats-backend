@@ -1,4 +1,5 @@
 import Weapon from '../models/weapons.js'
+import Attachment from '../models/attatchments.js'
 import { NotFound } from '../lib/error.js'
 
 async function getAllWeapons(req, res) {
@@ -10,11 +11,30 @@ async function getAllWeapons(req, res) {
   }
 }
 
+async function getAllAttachments(req, res) {
+  try {
+    const allAttachments = await Attachment.find()
+    return res.status(200).json(allAttachments)
+    } catch (err) {
+    console.log(err)
+  }
+}
+
 async function weaponCreate(req, res) {
   try {
     const newWeapon = await Weapon.create(req.body)
     console.log(req.body)
     return res.status(201).json(newWeapon)
+  } catch (err) {
+    console.log(err)
+  }
+}
+
+async function attachmentCreate(req, res) {
+  try {
+    const newAttachment = await Attachment.create(req.body)
+    console.log(req.body)
+    return res.status(201).json(newAttachment)
   } catch (err) {
     console.log(err)
   }
@@ -61,8 +81,10 @@ async function weaponDelete(req, res, next){
 
 export default {
   index: getAllWeapons,
+  indexAttatchments: getAllAttachments,
   show: weaponShow,
   create: weaponCreate,
+  createAttachmentment: attachmentCreate,
   update: weaponUpdate,
   delete: weaponDelete,
 }

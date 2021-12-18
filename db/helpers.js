@@ -8,3 +8,19 @@ export function connectDB() {
   return mongoose.connect(dbURI, opts)
 }
 
+export function truncateDB() {
+  if (mongoose.connection.readyState !==0) {
+    const { collections } = mongoose.connection
+    const promises = Object.keys(collections).map(collection => 
+      mongoose.connection.collection(collection).deleteMany({})
+      )
+      return Promise.all(promises)
+    }
+}
+
+export function disconnectDB() {
+  if (mongoose.connection.readyState !==0) {
+    return mongoose.disconnect()
+  }
+}
+

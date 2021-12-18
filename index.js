@@ -5,6 +5,7 @@ import { port } from './config/environment.js'
 import router from './config/router.js'
 import logger from './lib/logger.js'
 import errorHandler from './lib/errorHandler.js'
+import { connectDB } from './db/helpers.js'
 
 const app = express()
 app.use(express.json())
@@ -13,15 +14,15 @@ app.use(router)
 app.use(errorHandler)
 
 
-async function connectToMongoose() {
+async function startServer() {
   try {
-    await mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true })
-    console.log('Mongoose is connected')
+    await connectDB()
+    console.log("Mongoose is connected")
+    app.listen(port, () => console.log(`listening on port ${port}`))
   } catch (err) {
-    console.log('Mongoose did not connect')
+    console.log("something went wrong")
     console.log(err)
   }
-}
+} 
 
-app.listen(port, () => console.log(`app is listening on ${port}`))
-connectToMongoose()
+startServer()
