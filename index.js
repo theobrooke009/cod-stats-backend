@@ -7,10 +7,12 @@ import logger from './lib/logger.js'
 import errorHandler from './lib/errorHandler.js'
 import { connectDB } from './db/helpers.js'
 
+
+
 const app = express()
 app.use(express.json())
 app.use(logger)
-app.use(router)
+app.use('/api', router)
 app.use(errorHandler)
 
 
