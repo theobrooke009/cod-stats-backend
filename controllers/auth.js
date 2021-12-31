@@ -1,11 +1,11 @@
-import User from '../models/user.js'
+import SiteUser from '../models/siteUser.js'
 import { Unauthorized } from '../lib/error.js'
 import jwt from 'jsonwebtoken'
 import { secret } from '../config/environment.js'
 
 async function registerUser(req, res, next) {
   try {
-    const createdUser = await User.create(req.body)
+    const createdUser = await SiteUser.create(req.body)
     console.log(createdUser)
     return res.status(201).json({ message: `Welcome ${createdUser.username}`
     })
@@ -16,7 +16,7 @@ async function registerUser(req, res, next) {
 
 async function loginUser(req, res, next) {
   try {
-    const userToLogin = await User.findOne({ email: req.body.email })
+    const userToLogin = await SiteUser.findOne({ email: req.body.email })
     if (!userToLogin || !userToLogin.validatePassword(req.body.password)) {
       throw new Unauthorized()
     }
