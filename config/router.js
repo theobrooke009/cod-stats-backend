@@ -17,14 +17,22 @@ router.route('/weapons/:weaponId')
 
 router.route('/weapons/:weaponId/build')
   .get(request.indexAttatchments)
+  .post(secureRoute, request.createClass)
+  
 
 
 router.route('/attachments')
   .get(request.indexAttatchments)
   .post(request.createAttachmentment)
 
+router.route('/user/:userId')
+  .get(request.user)
+
 router.post('/register', auth.register)
 router.post('/login', auth.login)
+
+router.route('/profile')
+  .get(secureRoute, auth.profile)
 
 
 

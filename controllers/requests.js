@@ -1,5 +1,7 @@
 import Weapon from '../models/weapons.js'
 import Attachment from '../models/attatchments.js'
+import CreatedClass from '../models/createdClass.js'
+import SiteUser from '..//models/siteUser.js'
 import { NotFound } from '../lib/error.js'
 
 async function getAllWeapons(req, res) {
@@ -20,6 +22,7 @@ async function getAllAttachments(req, res) {
   }
 }
 
+
 async function weaponCreate(req, res) {
   try {
     const newWeapon = await Weapon.create(req.body)
@@ -30,10 +33,21 @@ async function weaponCreate(req, res) {
   }
 }
 
+async function classCreate(req, res) {
+  const { currentUser } = req
+  try {
+    const newClass = await CreatedClass.create({ ...req.body, addedBy: currentUser })
+    console.log(req.body)
+    return res.status(201).json(newClass)
+  } catch (err) {
+    console.log(err)
+  }
+}
+
 async function attachmentCreate(req, res) {
   try {
     const newAttachment = await Attachment.create(req.body)
-    console.log(req.body)
+    console.log('hello theo', req.body)
     return res.status(201).json(newAttachment)
   } catch (err) {
     console.log(err)
@@ -46,6 +60,18 @@ async function weaponShow(req, res, next) {
     const weapon = await Weapon.findById(weaponId)
     if (!weapon) throw new NotFound()
     return res.status(200).json(weapon)
+  } catch (err) {
+    console.log(err)
+    next(err)
+  }
+}
+
+async function getUser(req, res, next) {
+  const { userId } = req.params
+  try {
+    const user = await SiteUser.findById(userId)
+    if (!user) throw new NotFound()
+    return res.status(200).json(user)
   } catch (err) {
     console.log(err)
     next(err)
@@ -85,6 +111,8 @@ export default {
   show: weaponShow,
   create: weaponCreate,
   createAttachmentment: attachmentCreate,
+  createClass: classCreate,
   update: weaponUpdate,
   delete: weaponDelete,
+  user: getUser,
 }

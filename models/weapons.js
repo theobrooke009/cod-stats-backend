@@ -25,6 +25,7 @@ const weaponSchema = new mongoose.Schema({
   name: { type: String, required: false, unique: false, default: 'CR-56 AMAX' },
   weaponType: { type: String, required: false, unique: false, default: 'Assault Rifle' },
   image: { type: String, required: false, unique: false },
+  gameFrom: { type: String, required: false, unique: false },
   adsTime: { type: Number, required: false, unique: false, default: 279  },
   sprintToFire: { type: Number, required: false, unique: false, default: 263  },
   movementSpeed: { type: Number, required: false, unique: false, default: 4.659  },
@@ -39,6 +40,10 @@ const weaponSchema = new mongoose.Schema({
   sprintSpeed: { type: Number, required: false, unique: false, default: 6.2 },
   profileOne: [damageProfileSchema],
   profileTwo: [damageProfileSchema], 
+  profileThree: [damageProfileSchema],
+  profileFour: [damageProfileSchema], 
+  profileFive: [damageProfileSchema],
+  profileSix: [damageProfileSchema], 
 })
 
 const Weapon = mongoose.model('Weapon', weaponSchema)
