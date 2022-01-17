@@ -15,6 +15,7 @@ const damageRangeSchema = new mongoose.Schema({
 const damageProfileSchema = new mongoose.Schema({
   profileName: { type: String, required: false, default: 'Default' },
   fireRate: { type: Number, required: false, default: 630 },
+  magSize: { type: Number, required: false },
   rangeOne: [damageRangeSchema],
   rangeTwo: [damageRangeSchema],
   rangeThree: [damageRangeSchema],

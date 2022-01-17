@@ -97,6 +97,7 @@ export default [
         {
           "profileName": "Default",
           "fireRate": 545,
+          "magSize": 30,
           "rangeOne": [
             {
               "rangeStart": 0,
@@ -127,6 +128,7 @@ export default [
         {
           "profileName": "5.45x39mm 30-Round Mags",
           "fireRate": 665,
+          "magSize": 30,
           "rangeOne": [
             {
               "rangeStart": 0,
