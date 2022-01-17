@@ -1,6 +1,6 @@
 export default [
     {
-      "name": "AS VAL",
+      "name": "AS-VAL",
       "image": "https://www.pcgamesn.com/wp-content/uploads/2020/10/call-of-duty-warzone-best-warzone-as-val-loadout-1.jpg",
       "gameFrom": "Modern Warfare",
       "adsTime": 225,

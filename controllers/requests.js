@@ -1,6 +1,6 @@
 import Weapon from '../models/weapons.js'
 import Attachment from '../models/attatchments.js'
-import CreatedClass from '../models/createdClass.js'
+import UserCreatedClass from '../models/userCreatedClasses.js'
 import SiteUser from '..//models/siteUser.js'
 import { NotFound } from '../lib/error.js'
 
@@ -36,7 +36,7 @@ async function weaponCreate(req, res) {
 async function classCreate(req, res) {
   const { currentUser } = req
   try {
-    const newClass = await CreatedClass.create({ ...req.body, addedBy: currentUser })
+    const newClass = await UserCreatedClass.create({ ...req.body, addedBy: currentUser })
     console.log(req.body)
     return res.status(201).json(newClass)
   } catch (err) {

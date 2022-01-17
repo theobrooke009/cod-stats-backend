@@ -3,6 +3,8 @@ import mongoose from 'mongoose'
 const customClassSchema = new mongoose.Schema({
   profile: { type: String, required: false },
   name: { type: String, required: false },
+  gunName: { type: String, required: false },
+  gamefrom: { type: String, required: false },
   image: { type: String, required: false },
   muzzle: { type: String, required: false },
   barrel: { type: String, required: false },
@@ -16,6 +18,6 @@ const customClassSchema = new mongoose.Schema({
   addedBy: { type: mongoose.Schema.ObjectId, ref: 'User', required: true },
 })
 
-const CreatedClass = mongoose.model('createdClass', customClassSchema )
+const UserCreatedClass = mongoose.model('UserCreatedClass', customClassSchema )
 
-export default CreatedClass
+export default UserCreatedClass
