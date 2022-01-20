@@ -1,6 +1,6 @@
 import Weapon from '../models/weapons.js'
 import Attachment from '../models/attatchments.js'
-import UserCreatedClass from '../models/userCreatedClasses.js'
+import UserAddedClass from '../models/userCreatedClasses.js'
 import SiteUser from '..//models/siteUser.js'
 import { NotFound } from '../lib/error.js'
 
@@ -28,17 +28,6 @@ async function weaponCreate(req, res) {
     const newWeapon = await Weapon.create(req.body)
     console.log(req.body)
     return res.status(201).json(newWeapon)
-  } catch (err) {
-    console.log(err)
-  }
-}
-
-async function classCreate(req, res) {
-  const { currentUser } = req
-  try {
-    const newClass = await UserCreatedClass.create({ ...req.body, addedBy: currentUser })
-    console.log(req.body)
-    return res.status(201).json(newClass)
   } catch (err) {
     console.log(err)
   }
@@ -111,7 +100,6 @@ export default {
   show: weaponShow,
   create: weaponCreate,
   createAttachmentment: attachmentCreate,
-  createClass: classCreate,
   update: weaponUpdate,
   delete: weaponDelete,
   user: getUser,

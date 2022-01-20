@@ -4,7 +4,7 @@ const customClassSchema = new mongoose.Schema({
   profile: { type: String, required: false },
   name: { type: String, required: false },
   gunName: { type: String, required: false },
-  gamefrom: { type: String, required: false },
+  gameFrom: { type: String, required: false },
   image: { type: String, required: false },
   muzzle: { type: String, required: false },
   barrel: { type: String, required: false },
@@ -15,9 +15,11 @@ const customClassSchema = new mongoose.Schema({
   ammunition: { type: String, required: false },
   rearGrip: { type: String, required: false },
   perk: { type: String, required: false },
-  addedBy: { type: mongoose.Schema.ObjectId, ref: 'User', required: true },
+  addedBy: { type: mongoose.Schema.ObjectId, ref: 'SiteUser', required: true, timestamps: true },
+  likedBy: [{ type: mongoose.Schema.ObjectId, ref: 'SiteUser', required: true }],
+  addedAt : { type : Date, default: Date.now }
 })
 
-const UserCreatedClass = mongoose.model('UserCreatedClass', customClassSchema )
+const UserAddedClass = mongoose.model('UserAddedClass', customClassSchema )
 
-export default UserCreatedClass
+export default UserAddedClass
