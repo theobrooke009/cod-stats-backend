@@ -33,6 +33,9 @@ router.post('/login', auth.login)
 router.route('/profile')
   .get(secureRoute, auth.profile)
 
+router.route('/profile/:userId')
+  .put(secureRoute, request.userUpdate)
+
 router.route('/userweapons')
   .get(secureRoute, userRequest.userWeapons)
 

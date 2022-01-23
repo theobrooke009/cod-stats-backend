@@ -81,6 +81,22 @@ async function weaponUpdate(req, res, next) {
   }
 }
 
+async function userUpdate(req, res, next) {
+  const { userId } = req.params
+
+  try {
+    const userToEdit = await SiteUser.findById(userId)
+
+    if (!userToEdit) throw new NotFound()
+    Object.assign(userToEdit, req.body)
+    await userToEdit.save()
+    return res.status(202).json(userToEdit)
+  } catch (err) {
+    console.log(err)
+    next(err)
+  }
+}
+
 async function weaponDelete(req, res, next){
   const { weaponId } = req.params
   try {
@@ -101,6 +117,7 @@ export default {
   create: weaponCreate,
   createAttachmentment: attachmentCreate,
   update: weaponUpdate,
+  userUpdate: userUpdate,
   delete: weaponDelete,
   user: getUser,
 }

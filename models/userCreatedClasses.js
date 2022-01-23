@@ -15,6 +15,7 @@ const customClassSchema = new mongoose.Schema({
   ammunition: { type: String, required: false },
   rearGrip: { type: String, required: false },
   perk: { type: String, required: false },
+  weaponType: { type: String, required: false},
   addedBy: { type: mongoose.Schema.ObjectId, ref: 'SiteUser', required: true, timestamps: true },
   likedBy: [{ type: mongoose.Schema.ObjectId, ref: 'SiteUser', required: true }],
   addedAt : { type : Date, default: Date.now }

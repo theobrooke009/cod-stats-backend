@@ -6,6 +6,7 @@ const siteUserSchema = new mongoose.Schema({
   username: { type: String, unique: true, maxlength: 50, required: true },
   email: { type: String, unique: true, required: true },
   password: { type: String, required: true },
+  image: {type: String, required: false, default: 'https://i.redd.it/y17jm9hq4sm61.jpg' },
   isAdmin: { type: Boolean, default: false },
 })
 

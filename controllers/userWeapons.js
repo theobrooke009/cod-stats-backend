@@ -60,7 +60,7 @@ async function likeClass(req, res, next){
 
 async function deleteClass(req, res, next) {
   const { userWeaponId } = req.params
-  console.log('params', req.params)
+  console.log('params are here', req.params)
   const { currentUserId } = req
   try {
     const deleteWeapon = await UserAddedClass.findById(userWeaponId)

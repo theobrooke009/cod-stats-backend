@@ -26,6 +26,8 @@ const weaponSchema = new mongoose.Schema({
   name: { type: String, required: false, unique: false, default: 'CR-56 AMAX' },
   weaponType: { type: String, required: false, unique: false, default: 'Assault Rifle' },
   image: { type: String, required: false, unique: false },
+  buildImage: { type: String, required: false, unique: false},
+  adsImage: { type: String, required: false, unique: false},
   gameFrom: { type: String, required: false, unique: false },
   adsTime: { type: Number, required: false, unique: false, default: 279  },
   sprintToFire: { type: Number, required: false, unique: false, default: 263  },
