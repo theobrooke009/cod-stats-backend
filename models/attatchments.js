@@ -17,6 +17,7 @@ const attachmentSchema = new mongoose.Schema({
   tacSprintToFire: { type: Number, required: false, unique: false },
   reloadTime: { type: Number, required: false, unique: false },
   strafeSpeed: { type: Number, required: false, unique: false },
+  fireRate: { type: Number, required: false, unique: false },
   weapons: { type: Array, required: false, unique: false }
 }) 
 

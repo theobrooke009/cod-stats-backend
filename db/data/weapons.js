@@ -5216,7 +5216,7 @@ export default [
   "weaponType": "Sniper"
 },
 {
-  "name": "Rytek AMR",
+  "name": "Rytec AMR",
   "image": "https://res.cloudinary.com/dvio5jxzq/image/upload/v1642973108/cod/icon_cac_weapon_ar_t9british_kyx18u.png",
   "buildImage": "https://res.cloudinary.com/dvio5jxzq/image/upload/v1642973312/cod/ui_loot_weapon_ar_t9british_v1_l5sdhu.png",
   "adsImage": "https://res.cloudinary.com/dvio5jxzq/image/upload/v1642974716/cod/185_entlw9.png",
