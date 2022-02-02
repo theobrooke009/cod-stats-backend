@@ -6,6 +6,7 @@ const customClassSchema = new mongoose.Schema({
   gunName: { type: String, required: false },
   gameFrom: { type: String, required: false },
   image: { type: String, required: false },
+  buildImage: { type: String, required: false, unique: false},
   muzzle: { type: String, required: false },
   barrel: { type: String, required: false },
   laser: { type: String, required: false },
