@@ -21,7 +21,7 @@ export default [
       "sprintSpeed": 6.27,
       "profileOne": [
         {
-          "profileName": "Default",
+          "profileName": "None",
           "fireRate": 885,
           "rangeOne": [
             {
@@ -101,7 +101,7 @@ export default [
       "sprintSpeed": 6.14,
       "profileOne": [
         {
-          "profileName": "Default",
+          "profileName": "None",
           "fireRate": 545,
           "magSize": 30,
           "rangeOne": [
@@ -194,7 +194,7 @@ export default [
       "sprintSpeed": 6.43,
       "profileOne": [
         {
-          "profileName": "Default",
+          "profileName": "None",
           "fireRate": 600,
           "rangeOne": [
             {
@@ -245,7 +245,7 @@ export default [
       "sprintSpeed": 6.27,
       "profileOne": [
         {
-          "profileName": "Default",
+          "profileName": "None",
           "fireRate": 680,
           "rangeOne": [
             {
@@ -296,7 +296,7 @@ export default [
       "sprintSpeed": 6.27,
       "profileOne": [
         {
-          "profileName": "Default",
+          "profileName": "None",
           "fireRate": 570,
           "rangeOne": [
             {
@@ -347,7 +347,7 @@ export default [
       "sprintSpeed": 6.5,
       "profileOne": [
         {
-          "profileName": "Default",
+          "profileName": "None",
           "fireRate": 900,
           "rangeOne": [
             {
@@ -398,7 +398,7 @@ export default [
       "sprintSpeed": 6.14,
       "profileOne": [
         {
-          "profileName": "Default",
+          "profileName": "None",
           "fireRate": 680,
           "rangeOne": [
             {
@@ -449,7 +449,7 @@ export default [
       "sprintSpeed": 5.45,
       "profileOne": [
         {
-          "profileName": "Default",
+          "profileName": "None",
           "fireRate": 680,
           "rangeOne": [
             {
@@ -500,7 +500,7 @@ export default [
       "sprintSpeed": 5.83,
       "profileOne": [
         {
-          "profileName": "Default",
+          "profileName": "None",
           "fireRate": 666,
           "rangeOne": [
             {
@@ -551,7 +551,7 @@ export default [
       "sprintSpeed": 5.8,
       "profileOne": [
         {
-          "profileName": "Default",
+          "profileName": "None",
           "fireRate": 750,
           "rangeOne": [
             {
@@ -602,7 +602,7 @@ export default [
       "sprintSpeed": 5.84,
       "profileOne": [
         {
-          "profileName": "Default",
+          "profileName": "None",
           "fireRate": 652,
           "rangeOne": [
             {
@@ -653,7 +653,7 @@ export default [
       "sprintSpeed": 6.43,
       "profileOne": [
         {
-          "profileName": "Default",
+          "profileName": "None",
           "fireRate": 545,
           "rangeOne": [
             {
@@ -744,7 +744,7 @@ export default [
       "sprintSpeed": 6.94,
       "profileOne": [
         {
-          "profileName": "Default",
+          "profileName": "None",
           "fireRate": 1118,
           "rangeOne": [
             {
@@ -795,7 +795,7 @@ export default [
       "sprintSpeed": 6.94,
       "profileOne": [
         {
-          "profileName": "Default",
+          "profileName": "None",
           "fireRate": 576,
           "rangeOne": [
             {
@@ -846,7 +846,7 @@ export default [
       "sprintSpeed": 6.57,
       "profileOne": [
         {
-          "profileName": "Default",
+          "profileName": "None",
           "fireRate": 576,
           "rangeOne": [
             {
@@ -897,7 +897,7 @@ export default [
       "sprintSpeed": 6.2,
       "profileOne": [
         {
-          "profileName": "Default",
+          "profileName": "None",
           "fireRate": 630,
           "rangeOne": [
             {
@@ -977,7 +977,7 @@ export default [
       "sprintSpeed": 6.12,
       "profileOne": [
         {
-          "profileName": "Default",
+          "profileName": "None",
           "fireRate": 573,
           "rangeOne": [
             {
@@ -1027,7 +1027,7 @@ export default [
       "sprintSpeed": 6.08,
       "profileOne": [
         {
-          "profileName": "Default",
+          "profileName": "None",
           "fireRate": 475,
           "rangeOne": [
             {
@@ -1077,7 +1077,7 @@ export default [
       "sprintSpeed": 6.33,
       "profileOne": [
         {
-          "profileName": "Default",
+          "profileName": "None",
           "fireRate": 730,
           "rangeOne": [
             {
@@ -1127,7 +1127,7 @@ export default [
       "sprintSpeed": 6.15,
       "profileOne": [
         {
-          "profileName": "Default",
+          "profileName": "None",
           "fireRate": 751,
           "rangeOne": [
             {
@@ -1187,7 +1187,7 @@ export default [
       "sprintSpeed": 6.22,
       "profileOne": [
         {
-          "profileName": "Default",
+          "profileName": "None",
           "fireRate": 809,
           "rangeOne": [
             {
@@ -1307,7 +1307,7 @@ export default [
       "sprintSpeed": 6.09,
       "profileOne": [
         {
-          "profileName": "Default",
+          "profileName": "None",
           "fireRate": 413,
           "rangeOne": [
             {
@@ -1357,7 +1357,7 @@ export default [
       "sprintSpeed": 6.19,
       "profileOne": [
         {
-          "profileName": "Default",
+          "profileName": "None",
           "fireRate": 891,
           "rangeOne": [
             {
@@ -1407,7 +1407,7 @@ export default [
       "sprintSpeed": 6.27,
       "profileOne": [
         {
-          "profileName": "Default",
+          "profileName": "None",
           "fireRate": 856,
           "rangeOne": [
             {
@@ -1457,7 +1457,7 @@ export default [
       "sprintSpeed": 6.45,
       "profileOne": [
         {
-          "profileName": "Default",
+          "profileName": "None",
           "fireRate": 739,
           "rangeOne": [
             {
@@ -1587,7 +1587,7 @@ export default [
       "sprintSpeed": 6.49,
       "profileOne": [
         {
-          "profileName": "Default",
+          "profileName": "None",
           "fireRate": 905,
           "rangeOne": [
             {
@@ -1637,7 +1637,7 @@ export default [
       "sprintSpeed": 6.56,
       "profileOne": [
         {
-          "profileName": "Default",
+          "profileName": "None",
           "fireRate": 603,
           "rangeOne": [
             {
@@ -1728,7 +1728,7 @@ export default [
       "sprintSpeed": 6.49,
       "profileOne": [
         {
-          "profileName": "Default",
+          "profileName": "None",
           "fireRate": 654,
           "rangeOne": [
             {
@@ -1788,7 +1788,7 @@ export default [
       "sprintSpeed": 6.42,
       "profileOne": [
         {
-          "profileName": "Default",
+          "profileName": "None",
           "fireRate": 605,
           "rangeOne": [
             {
@@ -1889,7 +1889,7 @@ export default [
       "sprintSpeed": 6.43,
       "profileOne": [
         {
-          "profileName": "Default",
+          "profileName": "None",
           "fireRate": 1085,
           "rangeOne": [
             {
@@ -1980,7 +1980,7 @@ export default [
       "sprintSpeed": 6.44,
       "profileOne": [
         {
-          "profileName": "Default",
+          "profileName": "None",
           "fireRate": 882,
           "rangeOne": [
             {
@@ -2029,7 +2029,7 @@ export default [
       "sprintSpeed": 6.54,
       "profileOne": [
         {
-          "profileName": "Default",
+          "profileName": "None",
           "fireRate": 1036,
           "rangeOne": [
             {
@@ -2089,7 +2089,7 @@ export default [
       "sprintSpeed": 0.1,
       "profileOne": [
         {
-          "profileName": "Default",
+          "profileName": "None",
           "fireRate": 70,
           "rangeOne": [
             {
@@ -2159,7 +2159,7 @@ export default [
       "sprintSpeed": 0.1,
       "profileOne": [
         {
-          "profileName": "Default",
+          "profileName": "None",
           "fireRate": 300,
           "rangeOne": [
             {
@@ -2229,7 +2229,7 @@ export default [
       "sprintSpeed": 0.1,
       "profileOne": [
         {
-          "profileName": "Default",
+          "profileName": "None",
           "fireRate": 170,
           "rangeOne": [
             {
@@ -2299,7 +2299,7 @@ export default [
       "sprintSpeed": 0.1,
       "profileOne": [
         {
-          "profileName": "Default",
+          "profileName": "None",
           "fireRate": 232,
           "rangeOne": [
             {
@@ -2369,7 +2369,7 @@ export default [
       "sprintSpeed": 0.1,
       "profileOne": [
         {
-          "profileName": "Default",
+          "profileName": "None",
           "fireRate": 131,
           "rangeOne": [
             {
@@ -2439,7 +2439,7 @@ export default [
       "sprintSpeed": 0.1,
       "profileOne": [
         {
-          "profileName": "Default",
+          "profileName": "None",
           "fireRate": 300,
           "rangeOne": [
             {
@@ -2509,7 +2509,7 @@ export default [
       "sprintSpeed": 0.1,
       "profileOne": [
         {
-          "profileName": "Default",
+          "profileName": "None",
           "fireRate": 88,
           "rangeOne": [
             {
@@ -2579,7 +2579,7 @@ export default [
       "sprintSpeed": 0.1,
       "profileOne": [
         {
-          "profileName": "Default",
+          "profileName": "None",
           "fireRate": 88,
           "rangeOne": [
             {
@@ -2649,7 +2649,7 @@ export default [
       "sprintSpeed": 0.1,
       "profileOne": [
         {
-          "profileName": "Default",
+          "profileName": "None",
           "fireRate": 232,
           "rangeOne": [
             {
@@ -2719,7 +2719,7 @@ export default [
       "sprintSpeed": 0.1,
       "profileOne": [
         {
-          "profileName": "Default",
+          "profileName": "None",
           "fireRate": 300,
           "rangeOne": [
             {
@@ -2789,7 +2789,7 @@ export default [
       "sprintSpeed": 6.02,
       "profileOne": [
         {
-          "profileName": "Default",
+          "profileName": "None",
           "fireRate": 600,
           "rangeOne": [
             {
@@ -2840,7 +2840,7 @@ export default [
       "sprintSpeed": 5.45,
       "profileOne": [
         {
-          "profileName": "Default",
+          "profileName": "None",
           "fireRate": 878,
           "rangeOne": [
             {
@@ -2891,7 +2891,7 @@ export default [
       "sprintSpeed": 6.08,
       "profileOne": [
         {
-          "profileName": "Default",
+          "profileName": "None",
           "fireRate": 704,
           "rangeOne": [
             {
@@ -2942,7 +2942,7 @@ export default [
       "sprintSpeed": 5.96,
       "profileOne": [
         {
-          "profileName": "Default",
+          "profileName": "None",
           "fireRate": 752,
           "rangeOne": [
             {
@@ -2993,7 +2993,7 @@ export default [
     "sprintSpeed": 6.19,
     "profileOne": [
       {
-        "profileName": "Default",
+        "profileName": "None",
         "fireRate": 630,
         "rangeOne": [
           {
@@ -3163,7 +3163,7 @@ export default [
   "sprintSpeed": 5.23,
   "profileOne": [
     {
-      "profileName": "Default",
+      "profileName": "None",
       "fireRate": 553,
       "rangeOne": [
         {
@@ -3214,7 +3214,7 @@ export default [
   "sprintSpeed": 5.52,
   "profileOne": [
     {
-      "profileName": "Default",
+      "profileName": "None",
       "fireRate": 719,
       "rangeOne": [
         {
@@ -3265,7 +3265,7 @@ export default [
   "sprintSpeed": 5.45,
   "profileOne": [
     {
-      "profileName": "Default",
+      "profileName": "None",
       "fireRate": 930,
       "rangeOne": [
         {
@@ -3316,7 +3316,7 @@ export default [
   "sprintSpeed": 6.78,
   "profileOne": [
     {
-      "profileName": "Default",
+      "profileName": "None",
       "fireRate": 854,
       "rangeOne": [
         {
@@ -3367,7 +3367,7 @@ export default [
   "sprintSpeed": 6.72,
   "profileOne": [
     {
-      "profileName": "Default",
+      "profileName": "None",
       "fireRate": 696,
       "rangeOne": [
         {
@@ -3418,7 +3418,7 @@ export default [
   "sprintSpeed": 6.74,
   "profileOne": [
     {
-      "profileName": "Default",
+      "profileName": "None",
       "fireRate": 510,
       "rangeOne": [
         {
@@ -3469,7 +3469,7 @@ export default [
   "sprintSpeed": 6.74,
   "profileOne": [
     {
-      "profileName": "Default",
+      "profileName": "None",
       "fireRate": 751,
       "rangeOne": [
         {
@@ -3520,7 +3520,7 @@ export default [
   "sprintSpeed": 6.74,
   "profileOne": [
     {
-      "profileName": "Default",
+      "profileName": "None",
       "fireRate": 751,
       "rangeOne": [
         {
@@ -3571,7 +3571,7 @@ export default [
   "sprintSpeed": 6.76,
   "profileOne": [
     {
-      "profileName": "Default",
+      "profileName": "None",
       "fireRate": 790,
       "rangeOne": [
         {
@@ -3622,7 +3622,7 @@ export default [
   "sprintSpeed": 6.92,
   "profileOne": [
     {
-      "profileName": "Default",
+      "profileName": "None",
       "fireRate": 904,
       "rangeOne": [
         {
@@ -3673,7 +3673,7 @@ export default [
   "sprintSpeed": 7.02,
   "profileOne": [
     {
-      "profileName": "Default",
+      "profileName": "None",
       "fireRate": 855,
       "rangeOne": [
         {
@@ -3734,7 +3734,7 @@ export default [
   "sprintSpeed": 6.78,
   "profileOne": [
     {
-      "profileName": "Default",
+      "profileName": "None",
       "fireRate": 515,
       "rangeOne": [
         {
@@ -3785,7 +3785,7 @@ export default [
   "sprintSpeed": 6.78,
   "profileOne": [
     {
-      "profileName": "Default",
+      "profileName": "None",
       "fireRate": 424,
       "rangeOne": [
         {
@@ -3836,7 +3836,7 @@ export default [
   "sprintSpeed": 7.05,
   "profileOne": [
     {
-      "profileName": "Default",
+      "profileName": "None",
       "fireRate": 700,
       "rangeOne": [
         {
@@ -4016,7 +4016,7 @@ export default [
   "sprintSpeed": 6.54,
   "profileOne": [
     {
-      "profileName": "Default",
+      "profileName": "None",
       "fireRate": 721,
       "rangeOne": [
         {
@@ -4067,7 +4067,7 @@ export default [
   "sprintSpeed": 6.5,
   "profileOne": [
     {
-      "profileName": "Default",
+      "profileName": "None",
       "fireRate": 652,
       "rangeOne": [
         {
@@ -4128,7 +4128,7 @@ export default [
   "sprintSpeed": 6.88,
   "profileOne": [
     {
-      "profileName": "Default",
+      "profileName": "None",
       "fireRate": 679,
       "rangeOne": [
         {
@@ -4179,7 +4179,7 @@ export default [
   "sprintSpeed": 6.54,
   "profileOne": [
     {
-      "profileName": "Default",
+      "profileName": "None",
       "fireRate": 754,
       "rangeOne": [
         {
@@ -4230,7 +4230,7 @@ export default [
   "sprintSpeed": 6.58,
   "profileOne": [
     {
-      "profileName": "Default",
+      "profileName": "None",
       "fireRate": 790,
       "rangeOne": [
         {
@@ -4281,7 +4281,7 @@ export default [
   "sprintSpeed": 6.88,
   "profileOne": [
     {
-      "profileName": "Default",
+      "profileName": "None",
       "fireRate": 790,
       "rangeOne": [
         {
@@ -4332,7 +4332,7 @@ export default [
   "sprintSpeed": 6.5,
   "profileOne": [
     {
-      "profileName": "Default",
+      "profileName": "None",
       "fireRate": 533,
       "rangeOne": [
         {
@@ -4383,7 +4383,7 @@ export default [
   "sprintSpeed": 6.5,
   "profileOne": [
     {
-      "profileName": "Default",
+      "profileName": "None",
       "fireRate": 753,
       "rangeOne": [
         {
@@ -4463,7 +4463,7 @@ export default [
   "sprintSpeed": 6.17,
   "profileOne": [
     {
-      "profileName": "Default",
+      "profileName": "None",
       "fireRate": 14,
       "rangeOne": [
         {
@@ -4543,7 +4543,7 @@ export default [
   "sprintSpeed": 6.2,
   "profileOne": [
     {
-      "profileName": "Default",
+      "profileName": "None",
       "fireRate": 260,
       "rangeOne": [
         {
@@ -4594,7 +4594,7 @@ export default [
   "sprintSpeed": 6.37,
   "profileOne": [
     {
-      "profileName": "Default",
+      "profileName": "None",
       "fireRate": 250,
       "rangeOne": [
         {
@@ -4645,7 +4645,7 @@ export default [
   "sprintSpeed": 6.08,
   "profileOne": [
     {
-      "profileName": "Default",
+      "profileName": "None",
       "fireRate": 44,
       "rangeOne": [
         {
@@ -4696,7 +4696,7 @@ export default [
   "sprintSpeed": 6.17,
   "profileOne": [
     {
-      "profileName": "Default",
+      "profileName": "None",
       "fireRate": 315,
       "rangeOne": [
         {
@@ -4747,7 +4747,7 @@ export default [
   "sprintSpeed": 6.05,
   "profileOne": [
     {
-      "profileName": "Default",
+      "profileName": "None",
       "fireRate": 47,
       "rangeOne": [
         {
@@ -4798,7 +4798,7 @@ export default [
   "sprintSpeed": 6.74,
   "profileOne": [
     {
-      "profileName": "Default",
+      "profileName": "None",
       "fireRate": 464,
       "rangeOne": [
         {
@@ -4849,7 +4849,7 @@ export default [
   "sprintSpeed": 6.22,
   "profileOne": [
     {
-      "profileName": "Default",
+      "profileName": "None",
       "fireRate": 514,
       "rangeOne": [
         {
@@ -4879,7 +4879,7 @@ export default [
   ],
   "profileTwo": [
     {
-      "profileName": "Default",
+      "profileName": "None",
       "fireRate": 514,
       "rangeOne": [
         {
@@ -4929,7 +4929,7 @@ export default [
   "sprintSpeed": 6.74,
   "profileOne": [
     {
-      "profileName": "Default",
+      "profileName": "None",
       "fireRate": 370,
       "rangeOne": [
         {
@@ -4980,7 +4980,7 @@ export default [
   "sprintSpeed": 6.56,
   "profileOne": [
     {
-      "profileName": "Default",
+      "profileName": "None",
       "fireRate": 436,
       "rangeOne": [
         {
@@ -5031,7 +5031,7 @@ export default [
   "sprintSpeed": 6.43,
   "profileOne": [
     {
-      "profileName": "Default",
+      "profileName": "None",
       "fireRate": 343,
       "rangeOne": [
         {
@@ -5082,7 +5082,7 @@ export default [
   "sprintSpeed": 5.8,
   "profileOne": [
     {
-      "profileName": "Default",
+      "profileName": "None",
       "fireRate": 39,
       "rangeOne": [
         {
@@ -5133,7 +5133,7 @@ export default [
   "sprintSpeed": 6.03,
   "profileOne": [
     {
-      "profileName": "Default",
+      "profileName": "None",
       "fireRate": 190,
       "rangeOne": [
         {
@@ -5184,7 +5184,7 @@ export default [
   "sprintSpeed": 5.71,
   "profileOne": [
     {
-      "profileName": "Default",
+      "profileName": "None",
       "fireRate": 32,
       "rangeOne": [
         {
@@ -5235,7 +5235,7 @@ export default [
   "sprintSpeed": 5.67,
   "profileOne": [
     {
-      "profileName": "Default",
+      "profileName": "None",
       "fireRate": 165,
       "rangeOne": [
         {
@@ -5286,7 +5286,7 @@ export default [
   "sprintSpeed": 5.8,
   "profileOne": [
     {
-      "profileName": "Default",
+      "profileName": "None",
       "fireRate": 41,
       "rangeOne": [
         {
@@ -5337,7 +5337,7 @@ export default [
   "sprintSpeed": 5.67,
   "profileOne": [
     {
-      "profileName": "Default",
+      "profileName": "None",
       "fireRate": 71,
       "rangeOne": [
         {
@@ -5388,7 +5388,7 @@ export default [
   "sprintSpeed": 5.8,
   "profileOne": [
     {
-      "profileName": "Default",
+      "profileName": "None",
       "fireRate": 43,
       "rangeOne": [
         {
@@ -5439,7 +5439,7 @@ export default [
   "sprintSpeed": 5.8,
   "profileOne": [
     {
-      "profileName": "Default",
+      "profileName": "None",
       "fireRate": 43,
       "rangeOne": [
         {
@@ -5490,7 +5490,7 @@ export default [
   "sprintSpeed": 5.8,
   "profileOne": [
     {
-      "profileName": "Default",
+      "profileName": "None",
       "fireRate": 42,
       "rangeOne": [
         {
