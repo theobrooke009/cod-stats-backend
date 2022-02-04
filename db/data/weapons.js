@@ -230,7 +230,7 @@ export default [
       "image": "https://res.cloudinary.com/dvio5jxzq/image/upload/v1642887283/cod/icon_cac_weapon_ar_anovember94_lyo5vy.png",
       "buildImage": "https://res.cloudinary.com/dvio5jxzq/image/upload/v1642887316/cod/ui_loot_weapon_ar_anovember94_v5_tqnqpx.png",
       "adsImage": "https://res.cloudinary.com/dvio5jxzq/image/upload/v1642887350/cod/185_siwtuz.png",
-      "gameFrom": "Cold War",
+      "gameFrom": "Modern Warfare",
       "adsTime": 254,
       "sprintToFire": 263,
       "movementSpeed": 4.66,
@@ -281,7 +281,7 @@ export default [
       "image": "https://res.cloudinary.com/dvio5jxzq/image/upload/v1642887283/cod/icon_cac_weapon_ar_anovember94_lyo5vy.png",
       "buildImage": "https://res.cloudinary.com/dvio5jxzq/image/upload/v1642887316/cod/ui_loot_weapon_ar_anovember94_v5_tqnqpx.png",
       "adsImage": "https://res.cloudinary.com/dvio5jxzq/image/upload/v1642887350/cod/185_siwtuz.png",
-      "gameFrom": "Cold War",
+      "gameFrom": "Modern Warfare",
       "adsTime": 254,
       "sprintToFire": 263,
       "movementSpeed": 4.66,
@@ -2560,76 +2560,6 @@ export default [
       "weaponType": "Shotgun"
     },
     {
-      "name": "Hauer",
-      "image": "https://res.cloudinary.com/dvio5jxzq/image/upload/v1642899759/cod/icon_cac_weapon_sh_t9pump_xcivkt.png",
-      "buildImage": "https://res.cloudinary.com/dvio5jxzq/image/upload/v1642899849/cod/ui_loot_weapon_sh_t9pump_v10_orkave.png",
-      "adsImage": "https://res.cloudinary.com/dvio5jxzq/image/upload/v1642899939/cod/185_khz067.png",
-      "gameFrom": "Cold War",
-      "adsTime": 337,
-      "sprintToFire": 283,
-      "movementSpeed": 4.71,
-      "bulletVelocity": 600,
-      "magSize": 5,
-      "strafeSpeed": 0.1,
-      "adsMovementSpeed": 2.78,
-      "tacSprintToFire": 400,
-      "hipfireArea": 0,
-      "reloadTime": 4.52,
-      "openBoltDelay": 0,
-      "sprintSpeed": 0.1,
-      "profileOne": [
-        {
-          "profileName": "None",
-          "fireRate": 88,
-          "rangeOne": [
-            {
-              "rangeStart": 0,
-              "rangeEnd": 3.3,
-              "headDamage": 208,
-              "neckDamage": 208,
-              "chestDamage": 204,
-              "stomachDamage": 204,
-              "extremetiesDamage": 180,
-            }
-          ],
-          "rangeTwo": [
-            {
-              "rangeStart": 3.3,
-              "rangeEnd": 5.1,
-              "headDamage": 144,
-              "neckDamage": 144,
-              "chestDamage": 140,
-              "stomachDamage": 140,
-              "extremetiesDamage": 126,
-            }
-          ],
-          "rangeThree": [
-            {
-            "rangeStart": 5.1,
-            "rangeEnd": 15.5,
-            "headDamage": 104,
-            "neckDamage": 104,
-            "chestDamage": 100,
-            "stomachDamage": 100,
-            "extremetiesDamage": 95,
-          }
-        ],
-          "rangeFour": [
-            {
-            "rangeStart": 15.5,
-            "rangeEnd": 100000,
-            "headDamage": 72,
-            "neckDamage": 72,
-            "chestDamage": 72,
-            "stomachDamage": 72,
-            "extremetiesDamage": 64,
-          }
-        ]
-        }
-      ],
-      "weaponType": "Shotgun"
-    },
-    {
       "name": "Gallo",
       "image": "https://res.cloudinary.com/dvio5jxzq/image/upload/v1642900185/cod/icon_cac_weapon_sh_t9semiauto_oue2fo.png",
       "buildImage": "https://res.cloudinary.com/dvio5jxzq/image/upload/v1642900279/cod/ui_loot_weapon_sh_t9semiauto_v22_h8evxn.png",
@@ -3451,57 +3381,6 @@ export default [
 },
 {
   "name": "Bullfrog",
-  "image": "https://res.cloudinary.com/dvio5jxzq/image/upload/v1642909346/cod/icon_cac_weapon_sm_t9standard_nhnvv9.png",
-  "buildImage": "https://res.cloudinary.com/dvio5jxzq/image/upload/v1642888700/cod/ui_loot_weapon_sm_mpapa7_v2_i6u7rn.png",
-  "adsImage": "https://res.cloudinary.com/dvio5jxzq/image/upload/v1642888747/cod/185_m2kutm.png",
-  "gameFrom": "Cold War",
-  "adsTime": 238,
-  "sprintToFire": 100,
-  "movementSpeed": 4.87,
-  "bulletVelocity": 400,
-  "magSize": 50,
-  "strafeSpeed": 2.92,
-  "adsMovementSpeed": 2.81,
-  "tacSprintToFire": 200,
-  "hipfireArea": 7.5,
-  "reloadTime": 2.34,
-  "openBoltDelay": 0,
-  "sprintSpeed": 6.74,
-  "profileOne": [
-    {
-      "profileName": "None",
-      "fireRate": 751,
-      "rangeOne": [
-        {
-          "rangeStart": 0,
-          "rangeEnd": 13,
-          "headDamage": 46,
-          "neckDamage": 31,
-          "chestDamage": 31,
-          "stomachDamage": 31,
-          "extremetiesDamage": 27,
-        }
-      ],
-      "rangeTwo": [
-        {
-          "rangeStart": 13,
-          "rangeEnd": 100000,
-          "headDamage": 37,
-          "neckDamage": 25,
-          "chestDamage": 25,
-          "stomachDamage": 25,
-          "extremetiesDamage": 22,
-        }
-      ],
-      "rangeThree": [],
-      "rangeFour": []
-    }
-  ],
-  "profileTwo": [],
-  "weaponType": "SMG"
-},
-{
-  "name": "Bullfrog",
   "image": "https://res.cloudinary.com/dvio5jxzq/image/upload/v1642910768/cod/icon_cac_weapon_sm_t9capacity_jmgbzy.png",
   "buildImage": "https://res.cloudinary.com/dvio5jxzq/image/upload/v1642910913/cod/ui_loot_weapon_sm_t9capacity_v26_oq21yn.png",
   "adsImage": "https://res.cloudinary.com/dvio5jxzq/image/upload/v1642911060/cod/185_dwukyb.png",
@@ -3821,7 +3700,7 @@ export default [
   "image": "https://res.cloudinary.com/dvio5jxzq/image/upload/v1642913951/cod/17549_17530_ximage_54f0f688e59df72_ugf715.png",
   "buildImage": "https://res.cloudinary.com/dvio5jxzq/image/upload/v1642914456/cod/ui_loot_weapon_sm_t9season6_v1_tv0ulu.png",
   "adsImage": "https://res.cloudinary.com/dvio5jxzq/image/upload/v1642914626/cod/180_idz1tg.png",
-  "gameFrom": "Modern Warfare",
+  "gameFrom": "Cold War",
   "adsTime": 192,
   "sprintToFire": 117,
   "movementSpeed": 5.09,
